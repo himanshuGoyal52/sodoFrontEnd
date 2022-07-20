@@ -32,7 +32,7 @@ export const Footer = () => {
         <a href='/'>product</a>
         <a href='/'>product</a>
       </div>
-      <div>
+      <div className='phoneBtn fw'>
         <a className='btn' style={{'backgroundColor':'white','margin':'0 1rem' , 'color':'black'}} href='/'><i className='bx bxl-apple' ></i> Apple Store</a>
         <a className='btn' style={{'backgroundColor':'white','margin':'0 1rem' , 'color':'black'}} href='/'><i className='bx bxl-play-store' ></i> Play Store</a>
       </div>

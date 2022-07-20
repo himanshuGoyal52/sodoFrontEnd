@@ -85,6 +85,12 @@ body{
 .cards{
   width: 384px;
 }
+#compay_co{
+  margin:2rem 6rem;
+  display : 'flex';
+    flex-direction :column;
+    flex-wrap:'wrap';
+}
 
 /*----------- Card Container ------------*/
 #card_container{
@@ -232,6 +238,9 @@ body{
   font-size: 1.3rem;
   padding-right: 9rem;
 }
+#pdl3{
+  padding-left: 3rem;
+}
 /*---------------- featuere ---------------*/
 #feature_container{
   display: flex;
@@ -341,6 +350,106 @@ textarea{
     display: none;
   }
   #header {
-    padding: 16px 50px;
+    padding: 14px 11px;
+  }
+  #quote_container > h1 {
+    padding: 0 1rem;
+    font-size: 2rem;
+  }
+  #quote_container{
+    padding:  1rem 3rem;
+  }
+  #quote_container > img{
+    margin: 1rem 0;
+  }
+  #content_content{
+    padding: 1rem;
+  }
+  .content_item{
+    flex-direction: column;
+  }
+  #card_container{
+    padding: 1rem 1rem;
+    justify-content: center;
+  }
+  .hero_item > h1{
+    font-size: 3rem;
+  }
+  .hero_container{
+    padding: 1rem;
+  }
+  #compay_co{
+    margin: 1rem;
+  }
+  #compay_co >h2{
+    font-size: 3rem;
+    text-align: center;
+  }
+  .cards{
+    margin: 1rem 0;
+  }
+  #pricing_container {
+    padding: 1rem;
+    justify-content: center;
+  }
+  .pricing_item{
+    margin: 2rem 0;
+  }
+  #content_container{
+    padding: 1rem;
+  }
+  #contact_container{
+    padding: 1rem;
+  }
+  .hero_item > p{
+    margin: 2rem 0;
+    font-size: 1rem;
+  }
+  .hero_item > img {
+    margin-top: 3rem;
+  }
+  #company_container{
+    flex-direction: column;
+    align-items: center;
+  }
+  #company_container > img
+  {
+    margin: 1rem 0;
+  }
+  #form_container {
+    width: 93%;
+  }
+  #feature_container{
+    margin: 1rem;
+    padding: 1rem 3rem;
+  }
+  .feature_item{
+    width: 100%;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  .content_item > div{
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+  .content_item > img{
+    width: 100%;
+  }
+  .content_item > div > p{
+    padding: 0;
+  }
+  #pdl3{
+    padding-left: 0;
+  }
+  #footer_container{
+    padding: 3rem;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .phoneBtn{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
   }
 }

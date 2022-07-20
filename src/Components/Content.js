@@ -12,9 +12,7 @@ export const Content = () => {
       </div>
       <div className='content_item'>
         <img src='./img/small.png' alt='hehe'/>
-        <div style={{
-          'paddingLeft':'3rem'
-        }}>
+        <div id='pdl3'>
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
           <p>Praesent placerat ipsum nec mi maximus, vel cursus mauris cursus. Vivamus cursus ante eget orci egestas malesuada.</p>
         </div>
